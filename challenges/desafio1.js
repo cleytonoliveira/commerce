@@ -5,7 +5,6 @@ db.produtos.updateMany(
       criadoPor: "Ronald McDonald",
     },
   },
-  { $upsert: true },
 );
 
 db.produtos.find(
