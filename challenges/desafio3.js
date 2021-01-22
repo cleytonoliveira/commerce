@@ -23,4 +23,4 @@ db.produtos.updateMany(
   },
 );
 
-db.produtos.find({}, { _id: 0, nome: true, avaliacao: true });
+db.produtos.find({}, { _id: false, nome: true, avaliacao: true });
